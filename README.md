@@ -184,7 +184,7 @@ http://localhost:3000/api
 
 ## Error Responses
 
-- **404 Not Found**: Zwracany, gdy nie znaleziono składnika lub koktaila
+- **404 Not Found**: Zwracany, gdy nie znaleziono składnika lub koktajla
   ```json
   {
     "message": "Ingredient not found."
