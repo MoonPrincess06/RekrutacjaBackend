@@ -23,8 +23,8 @@ http://localhost:3000/api
     "category": "Alkoholowy",
     "instructions": "Wymieszaj miętę, limonkę, cukier i rum...",
     "ingredients": [
-      { "ingredientId": "1", "quantity": "30ml" },
-      { "ingredientId": "2", "quantity": "5 liści" }
+      { "ingredientId": "lemon", "quantity": "30ml" },
+      { "ingredientId": "mint", "quantity": "5 leaves" }
     ]
   }
   ```
@@ -36,8 +36,8 @@ http://localhost:3000/api
     "category": "Alkoholowy",
     "instructions": "Wymieszaj miętę, limonkę, cukier i rum...",
     "ingredients": [
-      { "ingredientId": "1", "quantity": "30ml" },
-      { "ingredientId": "2", "quantity": "5 liści" }
+      { "ingredientId": "lemon", "quantity": "30ml" },
+      { "ingredientId": "mint", "quantity": "5 leaves" }
     ]
   }
   ```
@@ -53,8 +53,8 @@ http://localhost:3000/api
       "category": "Alkoholowy",
       "instructions": "Wymieszaj miętę, limonkę, cukier i rum...",
       "ingredients": [
-        { "ingredientId": "1", "quantity": "30ml" },
-        { "ingredientId": "2", "quantity": "5 liści" }
+        { "ingredientId": "lemon", "quantity": "30ml" },
+        { "ingredientId": "mint", "quantity": "5 leaves" }
       ]
     }
   ]
@@ -70,8 +70,8 @@ http://localhost:3000/api
     "category": "Alkoholowy",
     "instructions": "Wymieszaj miętę, limonkę, cukier i rum...",
     "ingredients": [
-      { "ingredientId": "1", "quantity": "30ml" },
-      { "ingredientId": "2", "quantity": "5 liści" }
+      { "ingredientId": "lemon", "quantity": "30ml" },
+      { "ingredientId": "Mint", "quantity": "5 leaves" }
     ]
   }
   ```
@@ -94,8 +94,8 @@ http://localhost:3000/api
     "category": "Alkoholowy",
     "instructions": "Zaktualizowane instrukcje...",
     "ingredients": [
-      { "ingredientId": "1", "quantity": "30ml" },
-      { "ingredientId": "2", "quantity": "5 liści" }
+      { "ingredient": "lemon", "quantity": "30ml" },
+      { "ingredient": "mint", "quantity": "5 leaves" }
     ]
   }
   ```

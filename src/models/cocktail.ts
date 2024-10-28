@@ -1,10 +1,10 @@
 export interface IngredientQuantity {
-    ingredientId: string;
+    ingredient: string;
     quantity: string;
 }
 
 export interface Cocktail {
-    id: string;
+    id: number;
     name: string;
     category: string;
     instructions: string;
